@@ -17,6 +17,8 @@ model User {
   email           String @unique
   senha           String @unique
   criação         DateTime @ignore
+  posts           Posts[]
+  perfil          Perfil? 
  // papel           Papel @default(USUARIO)
   //foto de perfil
 
