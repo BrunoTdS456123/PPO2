@@ -44,7 +44,7 @@ model Posts {
 
 model Tags{
     id            Int @id @default(autoincrement())
-    name          String
+    nome          String
     posts         Posts[]
 }
 
