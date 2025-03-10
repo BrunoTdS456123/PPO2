@@ -12,3 +12,6 @@ https://www.youtube.com/watch?v=rftl2GMlGh0&t=32s
 git pull
 git push
 ctrl c fecha todos os processos
+npx prisma migrate dev
+npx ts-node-dev --respawn index.ts
+npx ts-node index.ts
